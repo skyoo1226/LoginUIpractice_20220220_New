@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         btnLogin.setOnClickListener {
 
             val inputId = edtId.text.toString()
-            val inputPw = edtId.text.toString()
+            val inputPw = edtPassword.text.toString()
 
             if (inputId == "admin" && inputPw == "qwer") {
                 Toast.makeText(this, "관리자님 환영합니다.", Toast.LENGTH_SHORT).show()
