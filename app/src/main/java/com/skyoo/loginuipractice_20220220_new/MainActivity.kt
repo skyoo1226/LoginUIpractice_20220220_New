@@ -21,11 +21,9 @@ class MainActivity : AppCompatActivity() {
             else if (inputId != "admin") {
                 Toast.makeText(this, "아이디가 틀립니다", Toast.LENGTH_SHORT).show()
             }
-            else if (inputPw != "qwer") {
-                Toast.makeText(this, "비밀번호가 잘못되었습니다.", Toast.LENGTH_SHORT).show()
-            }
             else {
-                Toast.makeText(this, "로그인에 실패했습니다.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "비밀번호가 잘못되었습니다.", Toast.LENGTH_SHORT).show()
+
             }
         }
     }
